@@ -35,7 +35,7 @@
     </Operation>
 
     <!-- NO PREREQUISITES UNLESS IT'S AN SOS2 PLANT or tree -->
-    <Operation Class="PatchOperationConditional">
+    <!-- <Operation Class="PatchOperationConditional">
         <xpath>Defs/ThingDef/plant/sowResearchPrerequisites</xpath>
         <match Class="PatchOperationRemove">
             <xpath>Defs/ThingDef/plant/sowResearchPrerequisites/li[not(text()="ArchotechPlants") 
@@ -47,18 +47,18 @@
             and not(text()="StandardGravtech") 
         ]</xpath>
         </match>
-    </Operation>
+    </Operation> -->
 
     <!-- FUCK THESE RESEARCH PROJECTS -->
     <!-- <Operation Class="PatchOperationRemove">
         <success>Always</success>
         <xpath>Defs/ResearchProjectDef[defName="Cocoa"]</xpath>
     </Operation> -->
-    <Operation Class="PatchOperationRemove">
+    <!-- <Operation Class="PatchOperationRemove">
         <success>Always</success>
         <xpath>Defs/ResearchProjectDef[defName="Devilstrand"]</xpath>
     </Operation>
-
+ -->
 
 
     <!-- SCENARIO PATCHES -->

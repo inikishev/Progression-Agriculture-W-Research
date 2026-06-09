@@ -17,7 +17,7 @@
     <incompatibleWith>
         <li>arthurgc.randomvegetables</li>
     </incompatibleWith>
-	<description>Integrates agriculture mods into Vanilla progression.</description>
+	<description>Integrates agriculture mods into Vanilla progression RESEARCH HAS BEEN RESTORED</description>
 	<loadAfter>
 		<li>Ludeon.Rimworld</li>
 		<li>Ludeon.Rimworld.Royalty</li>
