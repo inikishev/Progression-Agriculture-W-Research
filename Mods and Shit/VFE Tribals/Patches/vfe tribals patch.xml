@@ -8,7 +8,7 @@
           <success>Always</success>
           <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Medicine"]</xpath>
       </Operation> -->
-      <Operation Class="PatchOperationReplace">
+      <!-- <Operation Class="PatchOperationReplace">
           <success>Always</success>
           <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Culture"]/prerequisites</xpath>
           <value>
@@ -19,5 +19,5 @@
                 <li>VFET_Bow</li>
             </prerequisites>
           </value>
-      </Operation>
+      </Operation> -->
 </Patch>

@@ -60,7 +60,7 @@
     </Operation>
 
 
-      <Operation Class="PatchOperationReplace">
+      <!-- <Operation Class="PatchOperationReplace">
           <success>Always</success>
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_TreeGriffonBerry"]/prerequisites</xpath>
           <value>
@@ -68,7 +68,7 @@
                 <li>Cocoa</li>
             </prerequisites>
           </value>
-      </Operation>
+      </Operation> -->
 
 
                         <!-- FUCK THESE RESEARCH PROJECTS -->
