@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-      <Operation Class="PatchOperationRemove">
+      <!-- <Operation Class="PatchOperationRemove">
           <success>Always</success>
           <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Cultivation"]</xpath>
       </Operation>
       <Operation Class="PatchOperationRemove">
           <success>Always</success>
           <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Medicine"]</xpath>
-      </Operation>
+      </Operation> -->
       <Operation Class="PatchOperationReplace">
           <success>Always</success>
           <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Culture"]/prerequisites</xpath>
